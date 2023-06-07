@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="107.618" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Validate Asianpaints login functionality with valid data - Example #1.1" time="107.315">
+<system-out><![CDATA[
+Given Chrome is opened and Asianpaints app is opened........................passed
+When User clicks on login button............................................passed
+When User enters correct mobile number "8498059398".........................passed
+And User clicks on submit button............................................passed
+Then It shows home page.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
