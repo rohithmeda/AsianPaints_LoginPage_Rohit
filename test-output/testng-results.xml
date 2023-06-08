@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T12:02:41 IST" name="Default suite" finished-at="2023-06-08T12:03:21 IST" duration-ms="39442">
+  <suite started-at="2023-06-08T16:14:30 IST" name="Default suite" finished-at="2023-06-08T16:17:16 IST" duration-ms="166418">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage2@cecf639]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1@cecf639]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-06-08T12:02:41 IST" name="Default test" finished-at="2023-06-08T12:03:21 IST" duration-ms="39442">
-      <class name="testrunner.LoginPage2">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.LoginPage2@cecf639]" started-at="2023-06-08T12:02:41 IST" name="setUpClass" finished-at="2023-06-08T12:02:42 IST" duration-ms="863" status="PASS">
+    <test started-at="2023-06-08T16:14:30 IST" name="Default test" finished-at="2023-06-08T16:17:16 IST" duration-ms="166418">
+      <class name="testrunner.LoginPage1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.LoginPage1@cecf639]" started-at="2023-06-08T16:14:30 IST" name="setUpClass" finished-at="2023-06-08T16:14:31 IST" duration-ms="1499" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@59096b66]]>
+                <![CDATA[org.testng.TestRunner@5333f08f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage2@cecf639]" started-at="2023-06-08T12:02:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T12:03:21 IST" duration-ms="38395" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1@cecf639]" started-at="2023-06-08T16:14:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T16:15:09 IST" duration-ms="37565" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate Asianpaints login functionality with invalid data"]]>
+                <![CDATA["Landing Page"]]>
               </value>
             </param>
             <param index="1">
@@ -37,11 +37,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.LoginPage2@cecf639]" started-at="2023-06-08T12:03:21 IST" name="tearDownClass" finished-at="2023-06-08T12:03:21 IST" duration-ms="119" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1@cecf639]" started-at="2023-06-08T16:15:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T16:15:51 IST" duration-ms="41683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.LoginPage1@cecf639]" started-at="2023-06-08T16:15:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-08T16:17:16 IST" duration-ms="85383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Asianpaints login page Main functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.LoginPage1@cecf639]" started-at="2023-06-08T16:17:16 IST" name="tearDownClass" finished-at="2023-06-08T16:17:16 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- testrunner.LoginPage2 -->
+      </class> <!-- testrunner.LoginPage1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

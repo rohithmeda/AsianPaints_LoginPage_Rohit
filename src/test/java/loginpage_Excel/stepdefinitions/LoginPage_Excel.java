@@ -34,7 +34,9 @@ public class LoginPage_Excel extends Utility {
 		 objectMethod();
 		 System.out.println("******Chrome is running and landing page is visible******");
 		 Thread.sleep(2000);
-		 ldp.Dontallow();
+		 ldp.noThanksButton();
+		 ldp.laterButton();
+		// ldp.Dontallow();
 		 ldp.acceptCookiesButton();
 	}
 	@When("User clicks on login button")

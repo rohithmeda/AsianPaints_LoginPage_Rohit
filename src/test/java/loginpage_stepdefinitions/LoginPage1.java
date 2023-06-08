@@ -29,9 +29,9 @@ public class LoginPage1 extends Utility {
 		logger = report.createTest("test01");
         logger.log(Status.INFO, "Asiapaints page is opened");
 		Thread.sleep(10000);
-		//ldp.noThanksButton();
-		//ldp.laterButton();
-		ldp.Dontallow();
+		ldp.noThanksButton();
+		ldp.laterButton();
+		//ldp.Dontallow();
 		ldp.acceptCookiesButton();
 		System.out.println("******Chrome is running and landing page is visible******");
 		logger.log(Status.INFO, "Step1 is executed");

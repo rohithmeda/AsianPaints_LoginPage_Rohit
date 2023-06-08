@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="38.531" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Login" name="Validate Asianpaints login functionality with invalid data - Example #1.1" time="38.261">
+<testsuite name="Cucumber" time="164.88" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Landing Page" time="37.316">
+<system-out><![CDATA[
+Given Chrome is opened and Asianpaints app is opened........................passed
+When Users navigate on landing page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="UI" time="41.673">
+<system-out><![CDATA[
+Given Chrome is opened and Asianpaints app is opened........................passed
+When Users navigate on landing page.........................................passed
+Then Fields on navigation page are visible to the user......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Validate Asianpaints login page Main functionality" time="85.37">
 <system-out><![CDATA[
 Given Chrome is opened and Asianpaints app is opened........................passed
 When User clicks on login button............................................passed
-When User enters wrong number "8@49&0593"  and presses sumbit button........passed
-Then It shows invalid number................................................passed
+When User enters correct mobile number......................................passed
+And User clicks on submit button............................................passed
+Then It shows home page.....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
