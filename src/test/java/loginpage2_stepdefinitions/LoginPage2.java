@@ -88,22 +88,4 @@ public class LoginPage2 extends Utility{
 	}
 
 
-
-
-
-
-
-
-//	
-
-	
-//	@And("User clicks on submit button")
-//	public void user_clicks_on_submit_button() throws IOException, InterruptedException {
-//		objectMethod();
-//		Thread.sleep(16000);
-//		lp.submitButtonforotp();
-//		Thread.sleep(10000000);
-//
-//
-//	}
 }
