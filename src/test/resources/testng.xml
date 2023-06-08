@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="testrunner.LoginPage_TestRunner"/>
-      <class name="testrunner.LoginPage2_TestRunner"/>
+      <class name="testrunner.LoginPage1"/>
+      <class name="testrunner.LoginPage2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

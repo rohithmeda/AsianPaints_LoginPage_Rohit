@@ -9,19 +9,14 @@ import utility.Utility;
 
 public class LoginPage extends Utility{
 	
-	
-	
-	
 	@FindBy(xpath="//*[@id=\"loginMobile\"]")//mobile number
     public WebElement phonenum;
+	
 	@FindBy(xpath="//button[@class='ctaText modal__variant-login--submit']")
 	WebElement submit;///submit button for login page 
 	
 	@FindBy(xpath="//*[@id=\'validate-otp\']/div[3]")
 	WebElement otpSubmit;///submit button for otp
-	
-	
-	
 	
 	public LoginPage() throws IOException
 	{
@@ -43,9 +38,6 @@ public class LoginPage extends Utility{
 	
 	
 }
-	
-
-	
 	
 	
 //	public String validateLoginPageTitle()
@@ -73,6 +65,4 @@ public class LoginPage extends Utility{
 //		
 //	}
 	
-	
-	//*[@id="validate-mobile"]/div[2]/button
 

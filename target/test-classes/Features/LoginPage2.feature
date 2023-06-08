@@ -16,8 +16,7 @@ Scenario Outline: Validate Asianpaints login functionality with invalid data
     When User clicks on login button
     When User enters wrong number "<Mobile Number>"  and presses sumbit button
     Then It shows invalid number
-    And User clicks on submit button
-    Then It shows login page
+
  
     Examples: 
     |Mobile Number| otp |

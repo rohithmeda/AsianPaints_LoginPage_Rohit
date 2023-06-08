@@ -29,8 +29,10 @@ public class LoginPage2 extends Utility{
 		logger = report.createTest("test02");
         logger.log(Status.INFO, "Asiapaints page is opened");
 		Thread.sleep(10000);
-		ldp.noThanksButton();
-		ldp.laterButton();
+		//ldp.noThanksButton();
+		//ldp.laterButton();
+		ldp.Dontallow();
+		ldp.acceptCookiesButton();
 		System.out.print("******Chrome is running and landing page is visible******");
 		logger.log(Status.INFO, "Step1 is executed");
 	}
@@ -82,7 +84,7 @@ public class LoginPage2 extends Utility{
 	@Then("It shows invalid number")
 	public void it_shows_invalid_number() throws Exception {
 	    System.out.println("Phone Number is Invalid");
-	    Thread.sleep(4000);
+	    Thread.sleep(2000);
 	    lp.captureScreenshot();
 	    logger.log(Status.INFO, "Step4 is executed");
 	}

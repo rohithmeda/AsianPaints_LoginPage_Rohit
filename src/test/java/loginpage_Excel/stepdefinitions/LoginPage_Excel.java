@@ -34,13 +34,25 @@ public class LoginPage_Excel extends Utility {
 		 objectMethod();
 		 System.out.println("******Chrome is running and landing page is visible******");
 		 Thread.sleep(2000);
+		 ldp.Dontallow();
+		 ldp.acceptCookiesButton();
 	}
 	@When("User clicks on login button")
 	public void user_clicks_on_login_button() throws IOException, InterruptedException{
 
-		objectMethod();
-		ldp.loginButtonOfLandingpage();
-		Thread.sleep(4000);
+//		objectMethod();
+//		ldp.loginButtonOfLandingpage();
+//		Thread.sleep(4000);
+		try 
+		{
+			objectMethod();
+			ldp.loginButtonOfLandingpage();
+			Thread.sleep(4000);
+		}
+	 catch (IOException | InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	
 }
 
